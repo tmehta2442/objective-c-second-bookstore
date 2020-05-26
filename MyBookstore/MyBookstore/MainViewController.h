@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  MyBookstore
 //
 //  Created by TEJAS MEHTA on 5/25/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

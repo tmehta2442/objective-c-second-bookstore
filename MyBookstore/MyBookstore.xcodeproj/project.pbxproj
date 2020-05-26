@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		A49BBE53247C7D8E0055D29D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE52247C7D8E0055D29D /* AppDelegate.m */; };
 		A49BBE56247C7D8E0055D29D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE55247C7D8E0055D29D /* SceneDelegate.m */; };
-		A49BBE59247C7D8E0055D29D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE58247C7D8E0055D29D /* ViewController.m */; };
 		A49BBE5C247C7D8E0055D29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49BBE5A247C7D8E0055D29D /* Main.storyboard */; };
 		A49BBE5E247C7D920055D29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49BBE5D247C7D920055D29D /* Assets.xcassets */; };
 		A49BBE61247C7D920055D29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49BBE5F247C7D920055D29D /* LaunchScreen.storyboard */; };
 		A49BBE64247C7D920055D29D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE63247C7D920055D29D /* main.m */; };
 		A49BBE6E247C7D920055D29D /* MyBookstoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE6D247C7D920055D29D /* MyBookstoreTests.m */; };
 		A49BBE79247C7D920055D29D /* MyBookstoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE78247C7D920055D29D /* MyBookstoreUITests.m */; };
+		A49BBE88247C7FB00055D29D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE87247C7FB00055D29D /* Book.m */; };
+		A49BBE8B247C7FFC0055D29D /* Bookstore.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE8A247C7FFC0055D29D /* Bookstore.m */; };
+		A49BBE95247C86FD0055D29D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE94247C86FD0055D29D /* MainViewController.m */; };
+		A49BBE98247CB80C0055D29D /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BBE97247CB80C0055D29D /* BookDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		A49BBE52247C7D8E0055D29D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A49BBE54247C7D8E0055D29D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		A49BBE55247C7D8E0055D29D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A49BBE57247C7D8E0055D29D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A49BBE58247C7D8E0055D29D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A49BBE5B247C7D8E0055D29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A49BBE5D247C7D920055D29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49BBE60247C7D920055D29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,14 @@
 		A49BBE74247C7D920055D29D /* MyBookstoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookstoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49BBE78247C7D920055D29D /* MyBookstoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookstoreUITests.m; sourceTree = "<group>"; };
 		A49BBE7A247C7D920055D29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49BBE86247C7FB00055D29D /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = SOURCE_ROOT; };
+		A49BBE87247C7FB00055D29D /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = SOURCE_ROOT; };
+		A49BBE89247C7FFC0055D29D /* Bookstore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bookstore.h; sourceTree = SOURCE_ROOT; };
+		A49BBE8A247C7FFC0055D29D /* Bookstore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bookstore.m; sourceTree = SOURCE_ROOT; };
+		A49BBE93247C86FD0055D29D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A49BBE94247C86FD0055D29D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A49BBE96247CB80C0055D29D /* BookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		A49BBE97247CB80C0055D29D /* BookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +117,19 @@
 				A49BBE52247C7D8E0055D29D /* AppDelegate.m */,
 				A49BBE54247C7D8E0055D29D /* SceneDelegate.h */,
 				A49BBE55247C7D8E0055D29D /* SceneDelegate.m */,
-				A49BBE57247C7D8E0055D29D /* ViewController.h */,
-				A49BBE58247C7D8E0055D29D /* ViewController.m */,
 				A49BBE5A247C7D8E0055D29D /* Main.storyboard */,
 				A49BBE5D247C7D920055D29D /* Assets.xcassets */,
 				A49BBE5F247C7D920055D29D /* LaunchScreen.storyboard */,
 				A49BBE62247C7D920055D29D /* Info.plist */,
 				A49BBE63247C7D920055D29D /* main.m */,
+				A49BBE86247C7FB00055D29D /* Book.h */,
+				A49BBE87247C7FB00055D29D /* Book.m */,
+				A49BBE89247C7FFC0055D29D /* Bookstore.h */,
+				A49BBE8A247C7FFC0055D29D /* Bookstore.m */,
+				A49BBE93247C86FD0055D29D /* MainViewController.h */,
+				A49BBE94247C86FD0055D29D /* MainViewController.m */,
+				A49BBE96247CB80C0055D29D /* BookDetailViewController.h */,
+				A49BBE97247CB80C0055D29D /* BookDetailViewController.m */,
 			);
 			path = MyBookstore;
 			sourceTree = "<group>";
@@ -267,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49BBE59247C7D8E0055D29D /* ViewController.m in Sources */,
+				A49BBE8B247C7FFC0055D29D /* Bookstore.m in Sources */,
+				A49BBE95247C86FD0055D29D /* MainViewController.m in Sources */,
+				A49BBE88247C7FB00055D29D /* Book.m in Sources */,
 				A49BBE53247C7D8E0055D29D /* AppDelegate.m in Sources */,
 				A49BBE64247C7D920055D29D /* main.m in Sources */,
+				A49BBE98247CB80C0055D29D /* BookDetailViewController.m in Sources */,
 				A49BBE56247C7D8E0055D29D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
